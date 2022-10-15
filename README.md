@@ -1,3 +1,52 @@
+# 🗃️ Syllable Game
+
+> Playful way to learn word spelling.
+
+## 👀 Demo
+
+Application deployed publically on Vercel: X
+
+## 🧰 Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [Satori (Vercel OG)](https://github.com/vercel/satori)
+
+## 📚 Documentation
+
+Use endpoint `/api/game` to generate a game screen. Use URL parameters to configure it:
+
+- `topic` - title of the screen
+- `words` - Words to use in the game
+- `extra` - Secret that should be result of game
+
+A few examples:
+
+- `/api/game?words=yellow,indigo,purple,orange&topic=Music&extra=an`
+- `/api/game?words=piano,guitar,ukulele,trumpet,flute&topic=Music&extra=na`
+
+## 👀 Setup Client
+
+1. Install libarries `npm install`
+3. Start server `npm serve`
+
+## 🚀 Deploy client
+
+1. Build with `npm build`
+2. Deploy from `.next`
+
+> If deploying to static hosting, use `npm run generate` instead, and deploy files from `out` folder.
+
+## 🤝 Contributing
+
+No contribution guidelines yet, it's too small of a project.
+
+## 🖼️ Screenshots
+
+![Screenshot](public/screenshot1.png)
+![Screenshot](public/screenshot2.png)
+
+## 🤖 Auto-generated documentation
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
