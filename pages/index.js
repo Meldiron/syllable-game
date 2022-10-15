@@ -40,30 +40,19 @@ export default function Home() {
             <p>Set using <code className={styles.code}>extra</code> parameter.</p>
           </a>
 
-          <a
-            href="/api/game?words=piano,guitar,ukulele,trumpet,flute&topic=Music"
-            className={styles.card}
-          >
-            <h2>See in Action!</h2>
-            <p>
-              To see demo, click here.
-            </p>
+          <a className={styles.card} target="_blank"
+            rel="noopener noreferrer" href="/api/game?words=piano,guitar,ukulele,trumpet,flute&topic=Music">
+
+            <div>
+              <h2>See in Action!</h2>
+              <p>
+                To see demo, click here.
+              </p>
+            </div>
+
           </a>
         </div>
-      </main >
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      </main>
     </div >
   )
 }
