@@ -64,8 +64,6 @@ function getPositions() {
 
 // Endpoint logic
 export default async function handler(req, res) {
-  res.setHeader("Cache-Control", "no-store");
-
   const params = req.nextUrl.searchParams;
 
   const wordsStr = (params.get("words") ?? "hello world").split(" ").join(",");
