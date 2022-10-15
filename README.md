@@ -4,7 +4,7 @@
 
 ## 👀 Demo
 
-Application deployed publically on Vercel: X
+Application deployed publically on Vercel: [https://syllable-game.vercel.app/](https://syllable-game.vercel.app/)
 
 ## 🧰 Tech Stack
 
